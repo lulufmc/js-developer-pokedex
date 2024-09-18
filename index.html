@@ -24,7 +24,36 @@
 
 <body>
     <section class="content">
-        <h1>Pokedex</h1>
+        <div class="header">
+
+            <h1>Pokedex</h1>
+
+            <div class="btnFilter">
+                <select id="typeFilter">
+                    <option value="all">Todos</option>
+                    <option value="fire">Fogo</option>
+                    <option value="water">Água</option>
+                    <option value="grass">Grama</option>
+                    <option value="normal">Normal</option>
+                    <option value="electirc">Eletricidade</option>
+                    <option value="ice">Gelo</option>
+                    <option value="ground">Terra</option>
+                    <option value="flying">Voa</option>
+                    <option value="poison">Veneno</option>
+                    <option value="dragon">Dragão</option>
+                    <option value="steel">Pedra</option>
+                    <option value="ghost">Fantasma</option>
+                    <option value="fairy">Fada</option>
+                    <option value="psychic">Psíquico</option>
+                    <option value="dark">Negro</option>
+                    <option value="bug">Inseto</option>
+                    <!-- Adicione mais opções de tipos aqui -->
+                  </select>
+                  
+                  <button id="filterButton">Filtrar</button>
+            </div>
+
+        </div>
 
         <ol id="pokemonList" class="pokemons">
             <!-- ..... Pokemons here ..... -->
